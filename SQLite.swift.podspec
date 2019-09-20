@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
 
   s.module_name      = 'SQLite'
   s.default_subspec  = 'standard'
-  s.swift_versions = ['4.2', '5']
-  
-  
+  s.swift_versions = '4.2'
+
+
   ios_deployment_target = '8.0'
   tvos_deployment_target = '9.1'
   osx_deployment_target = '10.10'
   watchos_deployment_target = '2.2'
-  
+
   s.ios.deployment_target = ios_deployment_target
   s.tvos.deployment_target = tvos_deployment_target
   s.osx.deployment_target = osx_deployment_target
